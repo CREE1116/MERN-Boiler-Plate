@@ -1,0 +1,15 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "description": "MERNstack Boiler-plate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cree",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2"
+  }
+}

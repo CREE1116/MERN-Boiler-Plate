@@ -4,12 +4,18 @@
   "description": "MERNstack Boiler-plate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "Cree",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
     "express": "^4.19.2",
-    "mongoose": "^8.3.2"
+    "mongoose": "^5.13.17"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
